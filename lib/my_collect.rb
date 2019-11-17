@@ -5,5 +5,6 @@ def my_collect(array)
     empty_array << yield(array[i])
     i += 1
   end
+  empty_array
 end
 
